@@ -1,0 +1,13 @@
+p {
+  font-size: 30 px;
+}
+
+input {
+  width: 500px;
+  height: 100px;
+}
+
+input[type = text] {
+  width: 400px;
+  height: 100px;
+}

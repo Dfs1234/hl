@@ -1,0 +1,30 @@
+<div>
+	<form (submit)="register($event)" method="post">
+		<div class="input">
+			<label>Username: </label>
+			<input type="text" name="username" placeholder="5 to 13 letter">
+		</div>
+		<div class="input">
+			<label>Password: </label>
+			<input type="password" name="password" placeholder="8 to 13 letter">
+		</div>
+    <div>
+      <label>Name</label>
+      <input type="test" name="first_name" placeholder="first name">
+      <input type="test" name="last_name" placeholder="last name">
+    </div>
+    <div>
+      <label>Email: </label>
+      <input type="email" name="email" placeholder="Email">
+    </div>
+		<div class="input">
+			<input type="submit" name="Login">
+		</div>
+	</form>
+</div>
+
+<div routerLink="/login">Login</div>
+
+<div>
+	<p>{{register}}</p>
+</div>
